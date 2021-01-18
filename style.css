@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./img/1\ \(2\).jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.content-box {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 400px;
+    background-color: rgba(255, 255, 255, 0.575);
+    display: flex;
+}
+
+.blue {
+    background-color: blue;
+}
+.borderRad {
+    border-radius: 10px;
+}
+.box {
+    margin: 1rem 2rem;
+    padding: 1rem;
+    min-height: 400px;
+}
+.red {
+    background-color: red;
+}
