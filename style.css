@@ -16,29 +16,37 @@ body {
 .container {
     height: 100%;
     width: 100%;
-    align-items: center;
-    display: flex;
+    padding-top: 10vh;
 }
 
 .content-box {
     width: 80%;
-    margin: 0 auto;
-    min-height: 400px;
     background-color: rgba(255, 255, 255, 0.575);
-    display: flex;
+    min-height: 300px;
+    margin: 0 auto;
+    font-size: 0;
+    padding: 2rem;
 }
 
 .blue {
     background-color: blue;
+    margin-left: 1%;
 }
+
 .borderRad {
     border-radius: 10px;
 }
+
 .box {
-    margin: 1rem 2rem;
+    vertical-align: top;
     padding: 1rem;
     min-height: 400px;
+    display: inline-block;
+    width: 49%;
+    font-size: 1rem;
 }
+
 .red {
     background-color: red;
+    margin-right: 1%;
 }
